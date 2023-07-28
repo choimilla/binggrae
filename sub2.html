@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/import.css">
+  <link rel="stylesheet" href="css/sub1.css">
+  <link rel="stylesheet" href="css/sub2.css">
+  <script src="js/main.js"></script>
+  <script src="js/sub2.js"></script>
+  <title>빙그레 - 고객상담</title>
+
+</head>
+<body>
+<div id="skipNavi">
+  <a href="#">본문 바로가기</a>
+</div>
+<div id="wrap">
+<!-- header -->
+<header id="header">
+</header>
+<!-- //header -->
+<main id="container">
+  <div class="container_inner">
+    <div class="spot">
+      <p class="path"><img src="images/image_sub1/btn_icon_home.png" alt="홈바로가기"> &nbsp; &gt; &nbsp; 고객센터 &nbsp; &gt; &nbsp; 고객상담</p>
+      <h2>고객센터</h2>
+      <ul>
+        <li class="on"><a href="#">고객상담</a></li>
+        <li><a href="#">제품공급문의</a></li>
+        <li><a href="#">사이버 신고센터</a></li>
+        <li><a href="#">안전신문고</a></li>
+      </ul>
+    </div>
+    <ul class="tab_title">
+      <li><a href="#">FAQ</a></li>
+      <li class="on"><a href="#">1:1문의하기</a></li>
+    </ul>
+    <p class="sub2_txt">
+      빙그레에 궁금한 사항을 문의해 주세요.<br/>최대한 빠른 시일 내에 친절하게 답변해드리겠습니다.
+      <span>(토,일 공휴일 문의는 평일 운영시간 순차적으로 답변됩니다)</span>
+    </p>
+    <!-- //spot -->
+    <form action="#" class="privacy_agree">
+      <!-- 첫번째 fieldset -->
+      <fieldset class="agree">
+        <legend class="blind">개인정보 수집동의</legend>
+        <h3>개인정보수집동의</h3>
+        <span>(자세한 내용은 홈페이지 하단의"개인정보처리방침"을 확인하시기 바랍니다.)</span>
+        <div class="sub2_txt_wrap">
+          <div class="sub2_txt02">
+            <p>이용자는 개인정보 수집 및 이용에 동의하지 않을 권리가 있습니다.<br/>
+              동의하지 않으실 경우 익명 신고로 접수되며, 결과 통보가 제한될 수 있습니다.<br/>
+              기타 개인정보 처리에 관한 자세한 사항은 홈페이지 하단 개인정보 처리방침을 참고하시길 바랍니다.</p>
+            <div>
+              <span>개인정보 수집 이용에 관한 동의</span>
+              회사는 아래와 같은 개인정보를 수집하고 있습니다.
+                <ul>
+                  <li>- 수집 항목 : 이름, 이메일, 전화번호, 주소</li>
+                  <li>- 수집 목적 : 신고 접수, 처리 및 결과 통보</li>
+                  <li>- 개인정보 수집방법 : 이용자가 홈페이지상에 직접 입력</li>
+                  <li>- 서비스 이용과정이나 사업 처리 과정에서 자동으로 수집될 수 있는 항목 : 서비스 이용기록, 접속로그, 쿠키, 접속 IP정보</li>
+                </ul>
+            </div>
+            <div>
+              <span>개인정보의 보유 및 이용기간</span>
+              회사는 수집 이용 목적이 달성된 때에는 고객의 개인정보를 지체없이 파기합니다.<br/>다만 상법, 전자상거래등에서의 소비자보호에 관한 법률 등 법령의 규정에 의하여 보존할 필요성이 있는 경우에는 아래의 예시와 같이 고객의 개인정보를 보관할 수 있습니다.<br/>관계법령에 의한 보존 사유(예시)<br/>이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.
+                <ul>
+                  <li>1&#41; 계약 또는 청약철회 등에 관한 기록 : 5년</li>
+                  <li>2&#41; 대금결제 및 재화 등의 공급에 관한 기록 : 5년</li>
+                  <li>3&#41; 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년</li>
+                </ul>
+            </div>
+          </div>
+          <!-- //sub2_txt_wrap -->
+        </div>
+        <span class="radio">
+          <!-- appearance: none -->
+          <input type="radio" name="agree" id="agree" />
+          <label for="agree">위의 정책에 동의합니다.</label>
+          <input type="radio" name="agree" id="disagree" />
+          <label for="disagree">동의하지 않습니다.</label>
+        </span>
+      </fieldset>
+      <!-- //첫번째 fieldset -->
+      <!-- 두번째 fieldset -->
+      <fieldset class="detailed_queries">
+        <legend class="blind">상세문의</legend>
+        <table>
+          <tbody>
+            <!-- 문의종류 -->
+            <tr>
+              <th><label><span>*</span>문의종류</label></th>
+              <td>
+                <!-- 서버용 마크업 -->
+                <select name="product inquiry" id="productInquiry" class="blind">
+                  <option value="제품 일반문의" selected>제품 일반문의</option>
+                  <option value="제품 불편문의 (클레임)">제품 불편문의 (클레임)</option>
+                  <option value="서비스 일반문의 (제품 외 이벤트,영업,수출)">서비스 일반문의 (제품 외 이벤트,영업,수출)</option>
+                  <option value="서비스 불편문의 (제품 외 기타 불편사항)">서비스 불편문의 (제품 외 기타 불편사항)</option>
+                  <option value="아이디어/제안 (제품 및 서비스 제안,칭찬)">아이디어/제안 (제품 및 서비스 제안,칭찬)</option>
+                  <option value="개인정보 문의">개인정보 문의</option>
+                </select>
+                <!-- view용 마크업 -->
+                <div>
+                  <span data-value="제품 일반문의" class=product_inquiry>제품 일반문의</span >
+                  <ul>
+                    <li data-value="제품 일반문의">제품 일반문의</li>
+                    <li data-value="제품 불편문의 (클레임)">제품 불편문의 (클레임)</li>
+                    <li data-value="서비스 일반문의 (제품 외 이벤트,영업,수출)">서비스 일반문의 (제품 외 이벤트,영업,수출)</li>
+                    <li data-value="서비스 불편문의 (제품 외 기타 불편사항)">서비스 불편문의 (제품 외 기타 불편사항)</li>
+                    <li data-value="아이디어/제안 (제품 및 서비스 제안,칭찬)">아이디어/제안 (제품 및 서비스 제안,칭찬)</li>
+                    <li data-value="개인정보 문의">개인정보 문의</li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+            <!-- //문의종류 -->
+            <!-- 이름 -->
+            <tr>
+              <th><label for="username"><span>*</span>이름</label></th>
+              <td>
+                <input type="text" name="username" id="username"/>
+              </td>
+            </tr>
+            <!-- //이름 -->
+            <!-- 이메일 -->
+            <tr>
+              <th><label for="mail"><span>*</span>이메일</label></th>
+              <td>
+                <div>
+                  <!-- 이메일 양식이 분리돼있어서 일단 text로 넣었습니다 -->
+                  <input type="text" name="mailId" id="mail"/>
+                  &nbsp;&nbsp;@&nbsp;&nbsp;
+                  <input type="text" name="mailAd"/>
+                  <!-- 서버용 마크업 -->
+                  <select name="mailAddress" id="mailAddress"class=blind>
+                    <option value="네이버" selected>naver.com</option>
+                    <option value="구글">gmail.com</option>
+                    <option value="네이트">nate.com</option>
+                    <option value="다음">daum.net</option>
+                  </select>
+                  <!-- view용 마크업 -->
+                  <div class="email_select_box">
+                    <span data-value="네이버" class="email_list">naver.com</span>
+                    <ul>
+                      <li data-value="네이버">naver.com</li>
+                      <li data-value="구글">gmail.com</li>
+                      <li data-value="네이트">nate.com</li>
+                      <li data-value="다음">daum.net</li>
+                    </ul>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <!-- //이메일 -->
+            <!-- 연락처 -->
+            <tr>
+              <th><label for="phoneNum"><span>*</span>연락처</label></th>
+              <td>
+                <input type="tel" name="phoneNum" id="phoneNum" maxlength="4"/>
+                &nbsp;-&nbsp;
+                <input type="tel" name="phoneNum" maxlength="4" />
+                &nbsp;-&nbsp;
+                <input type="tel" name="phoneNum" maxlength="4" />
+                
+              </td>
+            </tr>
+            <!-- //연락처 -->
+            <!-- 주소 -->
+            <tr>
+              <th><label for="address">주소</label></th>
+              <td>
+                <input type="text" name="address" id="address" placeholder="제품 불편문의 접수시, 원활한 상담을 위해 지역을 기입해 주시기 바랍니다." />
+              </td>
+            </tr>
+            <!-- //주소 -->
+            <!-- 제목 -->
+            <tr>
+              <th><label for="subject"><span>*</span>제목</label></th>
+              <td>
+                <input type="text" id="subject"/>              
+              </td>
+            </tr>
+            <!-- //제목 -->
+            <!-- 내용 -->
+            <tr>
+              <th><label for="textbox"><span>*</span>내용</label></th>
+              <td>
+                <textarea name="textbox" id="textbox" cols="30" rows="10" placeholder="주민등록번호 등의 개인정보는 절대 노출하지마세요."></textarea>
+              </td>
+            </tr>
+            <!-- //내용 -->
+            <!-- 첨부파일 -->
+            <tr>
+              <th><label>첨부파일</label></th>
+              <td>
+                <input type="text" disabled />
+                <label for="file1">찾아보기</label>
+                <input type="file" name="file1" id="file1" class="blind">
+                <input type="text" disabled />
+                <label for="file1">찾아보기</label>
+                <input type="file" name="file2" id="file2" class="blind">
+                <input type="text" disabled />
+                <label for="file1">찾아보기</label>
+                <input type="file" name="file3" id="file3" class="blind">    
+                <!-- 첨부파일 주의사항 -->
+                <p>*사진(이미지)만 등록 가능합니다.(최대10MB 등록 가능)</p>          
+              </td>
+            </tr>
+            <!-- //첨부파일 -->
+          </tbody>
+        </table>
+        <!-- //table -->
+        <span class="btn_submit">
+          <label for="cancel">작성취소</label>
+          <input type="reset" id="cancel" class=blind>
+          <label for="save" class="on">등록하기</label>
+          <input type="submit" id="save" class=blind>
+        </span>
+      </fieldset>
+      <!-- //두번째 fieldset -->
+    </form>
+    <!-- //form -->
+    <div class="process">
+      <h3>고객상담절차</h3>
+      <ul>
+        <li>
+          <span>클레임접수 이미지</span>
+          <dl>
+            <dt>클레임접수</dt>
+            <dd>전화/홈페이지</dd>
+            <dd>전화/홈페이지를 통해 접수됩니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <span>원인규명 및 상담 이미지</span>
+          <dl>
+            <dt>원인규명 및 상담</dt>
+            <dd>전화/방문상담</dd>
+            <dd>고객상담시스템을 통해 접수된 후 전문상담이 이루어집니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <span>고객문의해결 이미지</span>
+          <dl>
+            <dt>고객문의해결</dt>
+            <dd>피드백</dd>
+            <dd>관련부서에 전달하여 확인/조치 후 피드백과 함께 문의가 해결됩니다.</dd>
+          </dl> 
+        </li>
+        <li>
+          <span>제품/업무개선 이미지</span>
+          <dl>
+            <dt>제품/업무개선</dt>
+            <dd>교육 및 개선</dd>
+            <dd>교육 후 제품 및 서비스 개선이 이루어집니다.</dd>
+          </dl>
+        </li>
+      </ul>
+      <div>
+        <span>화살표이미지</span>
+        <span>화살표이미지</span>
+        <span>화살표이미지</span>
+      </div>
+    </div>
+    <!-- //.process -->
+  </div>
+  <!-- //container_inner -->
+</main>
+<!-- //container -->
+<footer id="footer">
+</footer>
+<!-- //footer -->
+</div>
+<!-- //#wrap -->
+
+<script>
+  //AJAX의 최신 Fetch API 사용해서
+  //html 문서안에서 다른 html문서 불러오기
+  //자바스크립트 비동기 방식으로 async await 사용 (데이터를 불러올때까지 기다렸다가) 
+  async function fetchHtmlAsText(url) {
+    const response = await fetch(url);
+    return await response.text(); //텍스트로 변환
+  }
+  
+  async function importPage(target) {
+    document.querySelector('#'+target).innerHTML = await fetchHtmlAsText(target+'.html');
+  }
+  importPage('header');
+  importPage('footer');
+  </script>
+
+</body>
+</html>
