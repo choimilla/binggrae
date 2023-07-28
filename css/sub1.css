@@ -71,7 +71,8 @@ div.container_inner > div.spot {
   overflow-x: scroll;
 }
 div.container_inner > div.spot > p {
-  opacity: 0.4;
+  /* opacity: 0.4; */
+  color:#333;
   position: relative;
   padding-right: 12px;
   margin-bottom:15px;
@@ -154,7 +155,7 @@ div.container_inner > div.spot > ul > li > a{
   font-weight: 500;
   letter-spacing: -0.78px;
   text-align: center;
-  color: rgba(31, 31, 31, 0.5);
+  /* color: rgba(31, 31, 31, 0.5); */
   position: relative;
   cursor: pointer;
   transition: all .5s ease;
@@ -169,7 +170,7 @@ div.container_inner > div.spot > ul > li > a{
   height: 100%;
   font-size: 100%;
   min-width: 94px;
-  color: rgba(0, 0, 0, 0.4);
+  color: #575757;
   transition: color 0.3s linear;
 }
 .finance_info > ul > li:hover > a {
@@ -323,7 +324,7 @@ div.container_inner > div.spot > ul > li > a{
     border-radius: 18px;
     background: #fff;
     font-size: 15px;
-    color: #e4392a;
+    color: #a51F13;
     /* width: 100px; */
     width: 65px;
     line-height: 40px;
@@ -347,7 +348,7 @@ div.container_inner > div.spot > ul > li > a{
   margin-left: -18px;
 }
 .finance_data > div > ul > li:last-child > div{
-  background-color: #e4392a;
+  background-color: #a51F13;
 }
 .finance_data > div > ul > li > div.graph_debt{
   height: 22px;
@@ -357,7 +358,7 @@ div.container_inner > div.spot > ul > li > a{
 }
 .finance_data > div > ul > li > span.year{
   font-size: 16px;
-  color: rgba(31, 31, 31, 0.3);
+  color: #595959;
   letter-spacing: 0;
   /* border-top: 1px solid #d5d5d5; */
   display: block;
@@ -454,7 +455,7 @@ table.bs > tfoot > tr:last-child > th {
   padding: 20px 0 10px;
   margin-left:60px;
   font-size: 14px;
-  color: rgba(31, 31, 31, 0.5);
+  color: #595959;
   margin-bottom: 80px;
   /* background: red; */
 }
@@ -492,7 +493,8 @@ div.container_inner > div.spot {
   padding:20px;
 }
 div.container_inner > div.spot > p {
-  opacity: 0.4;
+  /* opacity: 0.4; */
+  color:#333;
   position: relative;
   padding-right: 12px;
   margin-bottom:15px;
@@ -590,7 +592,7 @@ div.container_inner > div.spot > ul > li > a{
   height: 100%;
   font-size: 100%;
   min-width: 154px;
-  color: rgba(0, 0, 0, 0.4);
+  color:#575757;
   transition: color 0.3s linear;
 }
 .finance_info > ul > li:hover > a {
@@ -742,7 +744,7 @@ div.container_inner > div.spot > ul > li > a{
     border-radius: 18px;
     background: #fff;
     font-size: 15px;
-    color: #e4392a;
+    color: #a51F13;
     /* width: 100px; */
     width: 65px;
     line-height: 40px;
@@ -766,7 +768,7 @@ div.container_inner > div.spot > ul > li > a{
   margin-left: -18px;
 }
 .finance_data > div > ul > li:last-child > div{
-  background-color: #e4392a;
+  background-color: #a51F13;
 }
 .finance_data > div > ul > li > div.graph_debt{
   height: 22px;
@@ -776,7 +778,7 @@ div.container_inner > div.spot > ul > li > a{
 }
 .finance_data > div > ul > li > span.year{
   font-size: 16px;
-  color: rgba(31, 31, 31, 0.3);
+  color: #595959;
   letter-spacing: 0;
   /* border-top: 1px solid #d5d5d5; */
   display: block;
@@ -874,7 +876,7 @@ table.bs > tfoot > tr:last-child > th {
   padding: 20px 0 10px;
   margin-left:60px;
   font-size: 14px;
-  color: rgba(31, 31, 31, 0.5);
+  color: #595959;
   margin-bottom: 80px;
   /* background: red; */
 }
@@ -894,7 +896,7 @@ table.bs > tfoot > tr:last-child > th {
 }
   .container_inner {
     width:1310px;
-    margin:0 auto;
+    margin:200px auto 0;
     /* background: #dff; */
   }
 
@@ -917,7 +919,8 @@ table.bs > tfoot > tr:last-child > th {
 }
 /* spot */
 div.container_inner > div.spot > p {
-  opacity: 0.4;
+  /* opacity: 0.4; */
+  color:#333;
   position: relative;
   padding-right: 12px;
   margin-bottom:15px;
@@ -1014,7 +1017,7 @@ div.container_inner > div.spot > ul > li > a{
   height: 100%;
   font-size: 100%;
   min-width: 154px;
-  color: rgba(0, 0, 0, 0.4);
+  color: #575757;
   transition: color 0.3s linear;
 }
 .finance_info > ul > li:hover > a {
@@ -1165,7 +1168,7 @@ div.container_inner > div.spot > ul > li > a{
     border-radius: 18px;
     background: #fff;
     font-size: 15px;
-    color: #e4392a;
+    color: #a51F13;
     /* width: 100px; */
     width: 65px;
     line-height: 40px;
@@ -1189,7 +1192,7 @@ div.container_inner > div.spot > ul > li > a{
   margin-left: -18px;
 }
 .finance_data > div > ul > li:last-child > div{
-  background-color: #e4392a;
+  background-color: #a51F13;
 }
 .finance_data > div > ul > li > div.graph_debt{
   height: 22px;
@@ -1199,7 +1202,7 @@ div.container_inner > div.spot > ul > li > a{
 }
 .finance_data > div > ul > li > span.year{
   font-size: 16px;
-  color: rgba(31, 31, 31, 0.3);
+  color: #595959;
   letter-spacing: 0;
   /* border-top: 1px solid #d5d5d5; */
   display: block;
@@ -1280,7 +1283,7 @@ table.bs > tfoot > tr:last-child > th {
   text-align: left;
   padding: 20px 0 0 10px;
   font-size: 16px;
-  color: rgba(31, 31, 31, 0.5);
+  color: #595959;
   margin-bottom: 147px;
 }
 .container_inner:last-child > p.sub1_txt::before {

@@ -1,4 +1,5 @@
 /* main.js */
+window.addEventListener('load',()=>{
 /* header 스크롤 이벤트 */
 const header = document.querySelector("#header")
 const btnTop = document.querySelector(".btn_top");
@@ -412,4 +413,4 @@ play.addEventListener("click",e=>{
 })
 
 
-
+})

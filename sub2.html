@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="css/import.css">
   <link rel="stylesheet" href="css/sub1.css">
   <link rel="stylesheet" href="css/sub2.css">
-  <script src="js/main.js"></script>
   <script src="js/sub2.js"></script>
   <title>빙그레 - 고객상담</title>
 
@@ -123,7 +122,7 @@
             <tr>
               <th><label for="username"><span>*</span>이름</label></th>
               <td>
-                <input type="text" name="username" id="username"/>
+                <input type="text" name="username" id="username" title="이름"/>
               </td>
             </tr>
             <!-- //이름 -->
@@ -133,9 +132,9 @@
               <td>
                 <div>
                   <!-- 이메일 양식이 분리돼있어서 일단 text로 넣었습니다 -->
-                  <input type="text" name="mailId" id="mail"/>
+                  <input type="text" name="mailId" id="mail" title="이메일아이디"/>
                   &nbsp;&nbsp;@&nbsp;&nbsp;
-                  <input type="text" name="mailAd"/>
+                  <input type="text" name="mailAd" title="이메일주소"/>
                   <!-- 서버용 마크업 -->
                   <select name="mailAddress" id="mailAddress"class=blind>
                     <option value="네이버" selected>naver.com</option>
@@ -161,11 +160,11 @@
             <tr>
               <th><label for="phoneNum"><span>*</span>연락처</label></th>
               <td>
-                <input type="tel" name="phoneNum" id="phoneNum" maxlength="4"/>
+                <input type="tel" name="phoneNum" id="phoneNum" maxlength="4" title="지역번호"/>
                 &nbsp;-&nbsp;
-                <input type="tel" name="phoneNum" maxlength="4" />
+                <input type="tel" name="phoneNum" maxlength="4" title="가운데번호"/>
                 &nbsp;-&nbsp;
-                <input type="tel" name="phoneNum" maxlength="4" />
+                <input type="tel" name="phoneNum" maxlength="4" title="뒷자리번호"/>
                 
               </td>
             </tr>
@@ -198,13 +197,13 @@
             <tr>
               <th><label>첨부파일</label></th>
               <td>
-                <input type="text" disabled />
+                <input type="text" disabled title="첫번째파일"/>
                 <label for="file1">찾아보기</label>
                 <input type="file" name="file1" id="file1" class="blind">
-                <input type="text" disabled />
+                <input type="text" disabled title="두번째파일"/>
                 <label for="file1">찾아보기</label>
                 <input type="file" name="file2" id="file2" class="blind">
-                <input type="text" disabled />
+                <input type="text" disabled title="세번째파일"/>
                 <label for="file1">찾아보기</label>
                 <input type="file" name="file3" id="file3" class="blind">    
                 <!-- 첨부파일 주의사항 -->
