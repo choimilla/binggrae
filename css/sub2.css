@@ -564,7 +564,6 @@
     flex-flow:column;
     align-items: center;
     gap:180px;
-    float:center;
     transform: translateY(-870px);
   }
   div.process > div > span {
@@ -1120,7 +1119,6 @@ div.process > div {
   display: flex;
   justify-content: center;
   gap:108px;
-  float:center;
   transform: translateY(-200%);
 }
 div.process > div > span {
@@ -1657,7 +1655,6 @@ div.process > div {
   display: flex;
   justify-content: center;
   gap:220px;
-  float:center;
   transform: translateY(-200%);
 }
 div.process > div > span {
